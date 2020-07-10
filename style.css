@@ -4,7 +4,7 @@ Author: SiteOrigin
 Author URI: http://siteorigin.com/
 Theme URI: http://siteorigin.com/theme/vantage
 Description: Vantage Child Theme
-Version: 1.0.0
+Version: 1.10
 Template: vantage
 Text Domain: vantage
 Domain Path: /languages/
@@ -12,3 +12,17 @@ Domain Path: /languages/
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+article.post .entry-header h2.entry-title,
+.entry-header h2.entry-title {
+  color: #3B3B3B;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.35em;
+}
+
+article.post .entry-header h2.entry-title a,
+.entry-header h2.entry-title a {
+  color: #3B3B3B;
+  text-decoration: none;
+}
